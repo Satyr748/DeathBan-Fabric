@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "deathban",
+  "version": "${version}",
+  "name": "DeathBan",
+  "description": "Configurable death ban for a Fabric hardcore server.",
+  "environment": "server",
+  "entrypoints": {
+    "main": ["de.example.deathban.DeathBanMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
